@@ -13,10 +13,10 @@ source activate moduPT
 conda install pytorch==1.7.0 torchvision==0.8.0 torchaudio==0.7.0 cudatoolkit=11.0 -c pytorch
 pip install transformers datasets scikit-learn seqeval pickle5 sentencepiece
 ```
-We use pretrain model T5-large (LM adapted): download [t5.1.1.lm100k.large](https://console.cloud.google.com/storage/browser/t5-data/pretrained_models/t5.1.1.lm100k.large) from [T5 repo](https://github.com/google-research/text-to-text-transfer-transformer/blob/main/released_checkpoints.md). Put it under `$project_root/lm_adapted_models/t5.1.1.lm100k.large`. Then convert it to pytorch checkpoint by
+We use pretrain model T5-large (LM adapted): download [t5.1.1.lm100k.large](https://console.cloud.google.com/storage/browser/t5-data/pretrained_models/t5.1.1.lm100k.large) from [T5 repo](https://github.com/google-research/text-to-text-transfer-transformer/blob/main/released_checkpoints.md). Put it under `${project_dir}/lm_adapted_models/t5.1.1.lm100k.large`. Then convert it to pytorch checkpoint by
 ```sh
-python convert.py --size large --data_root $project_path/lm_adapted_models
-ls $project_path/lm_adapted_models/t5.1.1.lm100k.large/pytorch_model.bin
+python convert.py --size large --data_root ${project_dir}/lm_adapted_models
+ls ${project_dir}/lm_adapted_models/t5.1.1.lm100k.large/pytorch_model.bin
 ```
 
 
