@@ -1,7 +1,7 @@
 ## Learning Label Modular Prompts for Text Classification in the Wild <a name="corl"></a>
 
 
-This is the official code for the paper **Learning Label Modular Prompts for Text Classification in the Wild** (accepted to EMNLP 2022).
+This is the official code for the paper [**Learning Label Modular Prompts for Text Classification in the Wild**](https://preview.aclanthology.org/emnlp-22-ingestion/2022.emnlp-main.109/) (accepted to EMNLP 2022).
 
 Authors:
 [Hailin Chen](https://www.linkedin.com/in/chenhailin/), [Amrita Saha](https://scholar.google.co.uk/citations?user=3Zb5Y2YAAAAJ&hl=en), [Shafiq Joty](https://raihanjoty.github.io/), [Steven C.H. Hoi](https://scholar.google.com/citations?user=JoLjflYAAAAJ&hl=en) 
