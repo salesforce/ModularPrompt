@@ -1,7 +1,7 @@
 ## Learning Label Modular Prompts for Text Classification in the Wild <a name="corl"></a>
 
 
-This is the official code for the paper [**Learning Label Modular Prompts for Text Classification in the Wild**](https://preview.aclanthology.org/emnlp-22-ingestion/2022.emnlp-main.109/) (accepted to EMNLP 2022).
+This is the official code for the paper [**Learning Label Modular Prompts for Text Classification in the Wild**](https://aclanthology.org/2022.emnlp-main.109/) (accepted to EMNLP 2022).
 
 Authors:
 [Hailin Chen](https://www.linkedin.com/in/chenhailin/), [Amrita Saha](https://scholar.google.co.uk/citations?user=3Zb5Y2YAAAAJ&hl=en), [Shafiq Joty](https://raihanjoty.github.io/), [Steven C.H. Hoi](https://scholar.google.com/citations?user=JoLjflYAAAAJ&hl=en) 
@@ -44,3 +44,19 @@ You might want to change the following arguments in the above scripts:
 The code is released under BSD 3-Clause - see `LICENSE.txt` for details.
 
 This code is developed from other open source projects: [transformers](https://github.com/huggingface/transformers). We thank the original contributors of these works for open-sourcing their valuable source codes. 
+
+## Citation
+If you find our paper or this project helps your research, please kindly consider citing our paper in your publication.
+```
+@inproceedings{DBLP:conf/emnlp/ChenSJH22,
+  author    = {Hailin Chen and
+               Amrita Saha and
+               Shafiq R. Joty and
+               Steven C. H. Hoi},
+  title     = {Learning Label Modular Prompts for Text Classification in the Wild},
+  booktitle = {{EMNLP}},
+  pages     = {1677--1690},
+  publisher = {Association for Computational Linguistics},
+  year      = {2022}
+}
+```
